@@ -13,7 +13,7 @@ const HTTP_PORT = process.env.PORT || 8080;
 // added next 3 lines
 const passport = require("passport");
 app.use(passport.initialize());
-passport.use(strategy);
+//passport.use(strategy);
 
 app.use(express.json());
 app.use(cors());
