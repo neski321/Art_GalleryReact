@@ -4,7 +4,7 @@ import ArtworkCard from '@/components/ArtworkCard';
 import { Card } from 'react-bootstrap';
 import { favouritesAtom } from "@/store";
 
-export default function favourites(){
+export default function Favourites(){
     const [favouritesList] = useAtom(favouritesAtom);
 
     if(!favouritesList) return null;

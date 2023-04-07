@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { Row, Col, Container, ListGroup, ListGroupItem, Card, Button} from 'react-bootstrap';
 import { removeFromHistory } from '@/lib/userData';
 
-export default function history() {
+export default function History() {
     const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
     const router = useRouter();
 

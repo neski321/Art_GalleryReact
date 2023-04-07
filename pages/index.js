@@ -24,15 +24,16 @@ export default function AboutPage(){
       <Row>
         <Col md={6}>
           <p>
-            The Metropolitan Museum of Art, colloquially "the Met," is located in New York City and is the largest art museum in the United States. Its permanent collection contains over two million works, divided among seventeen curatorial departments. The main building, located on the eastern edge of Central Park along Museum Mile, is by area one of the world's largest art galleries. There is also a much smaller second location at "The Cloisters" in Upper Manhattan that features medieval art.
+            The Metropolitan Museum of Art, colloquially &quot;the Met,&rdquo; is located in New York City and is the largest art museum in the United States. Its permanent collection contains over two million works, divided among seventeen curatorial departments. The main building, located on the eastern edge of Central Park along Museum Mile, is by area one of the world&apos;s largest art galleries. There is also a much smaller second location at &ldquo;The Cloisters&rdquo; in Upper Manhattan that features medieval art.
           </p>
         </Col>
         <Col md={6}>
           <p>
-            Founded in 1870, the Met has a rich history and has been the subject of numerous films and television shows. It is a popular destination for visitors to New York City, attracting over seven million visitors annually. In addition to its extensive art collection, the Met also hosts a variety of educational programs and exhibitions throughout the year. For more information, please visit the <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="noreferrer">Wikipedia entry</a>.
+            Founded in 1870, the Met has a rich history and has been the subject of numerous films and television shows. It is a popular destination for visitors to New York City, attracting over seven million visitors annually. In addition to its extensive art collection, the Met also hosts a variety of educational programs and exhibitions throughout the year. For more information, please visit the <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="noreferrer">&ldquo;Wikipedia entry&rdquo;</a>.
           </p>
         </Col>
       </Row>
     </div>
   );
 };
+
