@@ -45,7 +45,7 @@ export default function MainNav(){
     const logout = () => {
       setIsExpanded(false);
       removeToken();
-      router.push('/Login');
+      router.push('/login');
   };
 
     return(
@@ -120,9 +120,9 @@ export default function MainNav(){
                     style={{color: router.pathname === "/register" ? "cyan" : "" }}
                     onClick={() => setIsExpanded(false)}
                     >Register</Nav.Link></Link>
-                  <Link href="/Login" passHref legacyBehavior><Nav.Link
-                      active={router.pathname === "/Login"}
-                      style={{color: router.pathname === "/Login" ? "cyan" : "" }}
+                  <Link href="/login" passHref legacyBehavior><Nav.Link
+                      active={router.pathname === "/login"}
+                      style={{color: router.pathname === "/login" ? "cyan" : "" }}
                       onClick={() => setIsExpanded(false)}
                   >Log in</Nav.Link></Link>
               </Nav>
