@@ -21,19 +21,13 @@ export default function RouteGuard(props) {
   useEffect(() => {    
     updateAtoms();
     authCheck(router.pathname);
-  
-    const handleRouteChange = (url) => {
-      const path = url.split('?')[0];
-      authCheck(path);
-    };
-  
-    router.events.on('routeChangeComplete', handleRouteChange);
-  
+    
+    router.events.on('routeChangeComplete', authCheck);
+
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
+      router.events.off('routeChangeComplete', authCheck);
     };
-  }, [authCheck, router.events, router.pathname, updateAtoms]);
-  
+  }, []);
 
   function authCheck(url) {
     const path = url.split('?')[0];
