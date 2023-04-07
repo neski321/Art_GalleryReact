@@ -7,6 +7,8 @@ import { favouritesAtom } from "@/store";
 export default function favourites(){
     const [favouritesList] = useAtom(favouritesAtom);
 
+    if(!favouritesList) return null;
+
     return (
         <Container>
         {favouritesList.length > 0 ? (
