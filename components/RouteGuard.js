@@ -33,7 +33,7 @@ export default function RouteGuard(props) {
     const path = url.split('?')[0];
     if (!isAuthenticated() && !PUBLIC_PATHS.includes(path)) {
         setAuthorized(false);
-        router.push('/Login');
+        router.push('/login');
       } else {
         setAuthorized(true);
       }

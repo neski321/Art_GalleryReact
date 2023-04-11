@@ -7,7 +7,7 @@
 *
 * Name: Neskines Otieno Student ID: 118317205 Date: 2023-04-07
 *
-* Vercel App (Deployed) Link: _____________________________________________________
+* Vercel App (Deployed) Link: https://assign6-pvmw.vercel.app/
 *
 ********************************************************************************/
 
